@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venta de Mezcal</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f8f3e7;
+        color:#4e342e;
+    }
+
+    header{
+        background:#556b2f;
+        color:white;
+        padding:25px;
+        text-align:center;
+    }
+
+    header h1{
+        font-size:40px;
+    }
+
+    header p{
+        margin-top:10px;
+        font-size:18px;
+    }
+
+    nav{
+        background:#8b5e3c;
+        padding:15px;
+        text-align:center;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:0 15px;
+        font-weight:bold;
+    }
+
+    section{
+        padding:40px;
+    }
+
+    .galeria{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+    }
+
+    .galeria img{
+        width:100%;
+        height:220px;
+        object-fit:cover;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .contacto{
+        background:#d7ccc8;
+        padding:25px;
+        border-radius:10px;
+    }
+
+    .contacto h2{
+        margin-bottom:15px;
+    }
+
+    footer{
+        background:#556b2f;
+        color:white;
+        text-align:center;
+        padding:20px;
+        margin-top:30px;
+    }
+
+    iframe{
+        width:100%;
+        height:350px;
+        border:none;
+        border-radius:10px;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>🥃 Venta de Mezcal Artesanal 🥃</h1>
+    <p>Mezcal 100% artesanal de Oaxaca, calidad y tradición en cada botella</p>
+</header>
+
+<nav>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#ubicacion">Ubicación</a>
+</nav>
+
+<section id="galeria">
+    <h2>Galería</h2>
+    <br>
+
+    <div class="galeria">
+        <img src="img/bolteco.jpeg" alt="Mezcal 1">
+        <img src="img/cremas.jpeg" alt="Mezcal 2">
+        <img src="img/mezcal.jpeg" alt="Mezcal 3">
+        <img src="img/mezcale.jpeg" alt="Mezcal 4">
+    </div>
+</section>
+
+<section id="contacto">
+    <div class="contacto">
+        <h2>📞 Número de Contacto</h2>
+        <p><strong>Teléfono:</strong> +52 951 394 9964</p>
+
+        <br>
+
+        <h2>📍 Dirección</h2>
+        <p>LOS ENCINOS</p>
+    </div>
+</section>
+
+<section id="ubicacion">
+    <h2>🗺️ Ubicación GPS</h2>
+    <br>
+
+    <iframe
+        src="https://maps.app.goo.gl/wpb2AJw8WnBMc1T78">
+    </iframe>
+</section>
+
+<footer>
+    <p>© 2026 Venta de Mezcal Artesanal |CULTURA DIGITAL|2"N"</p>
+</footer>
+
+</body>
+</html>
